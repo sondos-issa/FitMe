@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".problem">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="@string/choose_your_problem_areas"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/arms_and_chest"
+        android:padding="10dp"
+
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/abs_core_and_back"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/butt_and_legs"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="btnfinal"
+        android:padding="10dp"
+        android:text="@string/next" />
+</LinearLayout>

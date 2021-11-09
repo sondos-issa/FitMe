@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">twoActivities</string>
+    <string name="secondActivity">This is second activity</string>
+    <string name="what_is_your_name">What is your Name?</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="how_tall_are_you_in_cm">How tall are you in cm?</string>
+    <string name="choose_your_problem_areas">Choose your problem areas ...</string>
+    <string name="abs_core_and_back">Abs, core and back</string>
+    <string name="butt_and_legs">Butt and legs</string>
+    <string name="next">Next</string>
+    <string name="arms_and_chest">Arms and chest</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+</resources>
