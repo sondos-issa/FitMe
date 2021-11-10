@@ -18,6 +18,7 @@
         tools:ignore="ContentDescription" />
 
     <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="199dp" />
     <TextView
@@ -39,12 +40,11 @@
             android:id="@+id/btnStart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_gravity="center"
             android:layout_margin="8dp"
             android:onClick="btnStartOnClick"
             android:text="@string/start"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
 
         <Button
             android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
             android:onClick="btnStopOnClick"
             android:id="@+id/btnStop"
             android:text="@string/stop"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
         <Button
             android:layout_width="wrap_content"
             android:id="@+id/btnReset"
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="Reset"
 
-            tools:ignore="HardcodedText,UsingOnClickInXml" />
+            tools:ignore="ButtonStyle,HardcodedText,UsingOnClickInXml" />
     </LinearLayout>
 
 

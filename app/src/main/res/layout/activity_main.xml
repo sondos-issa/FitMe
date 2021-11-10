@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/btnfirstnext"
         android:layout_width="261dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_margin="5dp"
         android:padding="15dp"
         android:textSize="16dp"
-        android:text="@string/what_is_your_name" />
+        android:text="@string/what_is_your_name"
+        tools:ignore="SpUsage" />
 
 
     <EditText
@@ -28,28 +29,9 @@
         android:hint="@string/enter_your_name"
         android:padding="15dp"
         android:inputType="textPersonName"
-        android:text="" />
+        android:text=""
+        tools:ignore="Autofill" />
 
-    <TextView
-        android:id="@+id/lallll"
-        android:layout_width="261dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="5dp"
-        android:padding="15dp"
-        android:text="How Old are you?"
-        android:textSize="18dp" /><![CDATA[
-    " />
-    ]]>
-    <EditText
-        android:layout_width="261dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="15dp"
-        android:ems="10"
-        android:hint="Enter your age"
-        android:inputType="number"
-        android:padding="15dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -61,10 +43,10 @@
         android:padding="15dp"
         android:text="How tall are you (cm) ?"
         android:textSize="18dp"
-        tools:ignore="DuplicateIds" />
+        tools:ignore="DuplicateIds,HardcodedText,SpUsage" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/tall"
         android:layout_width="270dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -72,7 +54,7 @@
 
         android:inputType="number"
         android:gravity="center"
-        />
+        tools:ignore="Autofill" />
 
     <TextView
         android:id="@+id/textView"
@@ -82,17 +64,18 @@
         android:layout_margin="10dp"
         android:padding="10dp"
         android:text="What is your weight?"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,SpUsage" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/weight"
         android:layout_width="270dp"
         android:layout_height="48dp"
         android:layout_marginBottom="92dp"
         android:ems="10"
         android:inputType="number"
         android:layout_gravity="center"
-         />
+        tools:ignore="Autofill" />
 
     <Button
         android:id="@+id/btnShow"
@@ -102,6 +85,7 @@
         android:onClick="btnShow_Show"
 
         android:padding="10dp"
-        android:text="Next" />
+        android:text="Next"
+        tools:ignore="HardcodedText,RtlHardcoded,UsingOnClickInXml" />
 
 </LinearLayout>
